@@ -1,0 +1,39 @@
+.col {
+    color:gainsboro;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+#comprar-style{
+  color: green;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+#fila-conferencia {
+  background-image: url("recursos/ba1.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.container-fluid {
+  padding: 0px;
+}
+
+#box-card {
+  padding: 0px;
+}
+

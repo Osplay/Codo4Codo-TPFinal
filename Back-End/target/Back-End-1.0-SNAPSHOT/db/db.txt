@@ -1,0 +1,20 @@
+CREATE TABLE oradores (
+  id_orador INTEGER PRIMARY KEY,
+  nombre varchar(40) NOT NULL,
+  apellido varchar(40) NOT NULL,
+  mail varchar(40) NOT NULL,
+  tema varchar(40) NOT NULL,
+  fecha timestamp NOT NULL
+)
+CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+-- inserto valores
+INSERT INTO oradores VALUES (1, 'Ryan', 'Smith', 'ryansmith@test.com', 'Matemáticas', NOW());
+INSERT INTO oradores VALUES (2, 'Pepe', 'Belle', 'pepebelle@test.com', 'Física', NOW());
+INSERT INTO oradores VALUES (3, 'Pocoyo', 'Azul', 'pocoyoazul@test.com', 'Química', NOW());
+INSERT INTO oradores VALUES (4, 'Pato', 'Amarillo', 'patoamarillo@test.com','Biología', NOW());
+INSERT INTO oradores VALUES (5, 'Dibu', 'Martinez', 'dibumartinez@test.com','Matemáticas', NOW());
+INSERT INTO oradores VALUES (6, 'Richard', 'Diazero', 'richarddiazero@test.com','Matemáticas', NOW());
+INSERT INTO oradores VALUES (7, 'Aquiles', 'Talón', 'aquilestalon@test.com', 'Física', NOW());
+INSERT INTO oradores VALUES (8, 'Richard', 'Diaz', 'richarddiaz@test.com', 'Matemáticas', NOW());
+INSERT INTO oradores VALUES (9, 'Gabriel', 'Diaz', 'gabrieldiaz@test.com', 'Biología', NOW());
+INSERT INTO oradores VALUES (10,'Raquel', 'Diaz', 'raqueldiaz@test.com' ,'Biología', NOW());

@@ -1,0 +1,86 @@
+.col {
+    color:gainsboro;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+#comprar-style{
+  color: green;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+#fila-conferencia {
+  background-image: url("recursos/ba1.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.container-fluid {
+  padding: 0px;
+}
+
+#box-card {
+  padding: 0px;
+}
+
+.container-head {
+  background-color: #616161;
+  text-align: center;
+  color:white;
+}
+.container-head a {
+  text-decoration: none;
+  color:white;
+}
+.container-head a:hover {
+  text-decoration: none;
+  color:white;
+}
+.col-btn-head:hover {
+  background-color: gray;
+  
+}
+.container-img {
+  background-image: url("recursos/ba1.jpg");
+  min-height: 640px;
+  background-repeat:no-repeat;
+  background-size: 100% 100%;
+}
+
+.container-img {
+  color:white;
+  padding-top:100px;
+}
+
+.col_img {
+  margin-top:100px;
+  background-color: #616161;
+  background-color: rgba(97, 97, 97, 0.8);
+}
+
+.botonera-img {
+  background-color: #616161;
+  background-color: rgba(97, 97, 97, 0.8);
+}
+
+footer {
+  bottom: 0px;
+  position: absolute;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
