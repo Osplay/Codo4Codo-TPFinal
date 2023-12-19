@@ -26,6 +26,8 @@ function updateCantidad(){
             break;
     }
  
+    document.getElementById("total").value = (cantidad * 200) * porcentaje;
+    document.getElementById("total").setAttribute("value", (cantidad * 200) * porcentaje);
     document.getElementById("total").innerHTML = (cantidad * 200) * porcentaje;
 
 }
@@ -33,7 +35,9 @@ function updateCantidad(){
 function clickBorrar(){
     document.getElementById("cantidad").value = 0;
     document.getElementById("categoria").value = 0;
-    document.getElementById("total").innerHTML = 0;
+    document.getElementById("total").value = 0;
+    document.getElementById("total").setAttribute("value", 0);
+    document.getElementById("total").innerHTML = "0";
 }
 
 function clickResumen(){

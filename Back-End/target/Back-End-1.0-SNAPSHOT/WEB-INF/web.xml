@@ -1,8 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
-   version="4.0">
+<web-app version="4.0" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
+    <filter>
+        <filter-name>Auth</filter-name>
+        <filter-class>Filtros.Auth</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>Auth</filter-name>
+        <url-pattern>/Panel/*</url-pattern>
+    </filter-mapping>
+    <servlet>
+        <servlet-name>Usuario</servlet-name>
+        <servlet-class>logica.Usuario</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AgregarOrador</servlet-name>
+        <servlet-class>AgregarOrador</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>BorrarOrador</servlet-name>
+        <servlet-class>BorrarOrador</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>Login</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AgregarTicket</servlet-name>
+        <servlet-class>AgregarTicket</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ActualizarContrasena</servlet-name>
+        <servlet-class>ActualizarContrasena</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AgregarOrador</servlet-name>
+        <url-pattern>/Panel/AgregarOrador</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Usuario</servlet-name>
+        <url-pattern>/Panel/Usuario</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>BorrarOrador</servlet-name>
+        <url-pattern>/Panel/BorrarOrador</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AgregarTicket</servlet-name>
+        <url-pattern>/Panel/AgregarTicket</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ActualizarContrasena</servlet-name>
+        <url-pattern>/Panel/ActualizarContrasena</url-pattern>
+    </servlet-mapping>
     <session-config>
         <session-timeout>
             30

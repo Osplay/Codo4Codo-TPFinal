@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<head>
+   <title>TP Integrador - Enzo - 23557</title>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script type="text/javascript" src="script/comprar-ticket.js" defer></script>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+    
+    <header>
+        <div class="container-head">
+
+            <div class="row">
+    
+                <div class="col-2">
+                    <a href="index.html"><img src="recursos/codoacodo.png" height="75px" width="150px" alt="logo">Conf Bs As</a>
+                </div>
+
+                <div class="col-2 col-btn-head offset-2">
+                    <p>La conferencia</p>
+                </div>
+
+                <div class="col-2 col-btn-head">
+                    <p>El lugar y la fecha</p>
+                </div>
+
+                <div class="col-2 col-btn-head">
+                    <p><a href="ser-orador.html">Conviértete en orador</a></p>
+                </div>
+
+                <div class="col-2 col-btn-head">
+                    <p>Comprar Tickets</p>
+                </div>
+
+            </div>
+    
+        </div>
+    </header>
+
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-2 offset-5">
+                    <h4>Datos del orador:</h4>
+                </div>
+                <div class="col-4 offset-2">
+                    <input type="text" name="nombre" class="form-control" id="nombre" placeholder="Nombre del orador" style="width:100%">
+
+                </div>
+
+                <div class="col-4">
+                    <input type="text" name="apellido" class="form-control" id="apellido" placeholder="Apellido del orador" style="width:100%">
+                </div>
+
+                <br/>
+
+                <div class="col-8 offset-2" style="padding-top: 10px;">
+                    <textarea style="width:100%;" rows=3 class="form-group" name="descripción" id="descripción" placeholder="Descripción del orador."></textarea>
+                </div>
+                
+                <br/>
+
+                <div class="col-6 offset-5">
+                    <h4>Especialidades:</h4>
+                </div>
+
+                <br/>
+
+                <div class="col-6 offset-2">
+                    <input class="form-check-input" type="checkbox" value="" id="chk_javascript">
+                    <label class="form-check-label" for="chk_javascript">
+                        Javascript
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="chk_react">
+                    <label class="form-check-label" for="chk_react">
+                        React
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="chk_negocios">
+                    <label class="form-check-label" for="chk_negocios">
+                        Negocios
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="chk_startups">
+                    <label class="form-check-label" for="chk_startups">
+                        Startups
+                    </label>
+                </div>
+
+                <br/>
+
+                <div class="col-8 offset-2">
+                    Url foto:
+                    <input type="text" name="foto" id="foto" style="width:100%;" placeholder="URL de la foto.">
+
+                </div>
+
+                <br/>
+
+                <div class="col-8 offset-2">
+                    <button class="btn btn-primary" style="background-color: #86dc3d; color:white; width:100%; margin-top: 10px;" type="button">Enviar</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="mt-auto">
+        <div class="row" style="background-color: blueviolet; margin-top: 10px;">
+            <div class="col offset-2">Preguntas<br>
+                Frecuentes</div>
+            <div class="col">
+                Contáctanos
+            </div>
+
+            <div class="col">
+                Prensa
+            </div>
+
+            <div class="col">
+                Conferencias
+            </div>
+
+            <div class="col">
+                <p>Términos y</p>
+                <p>condiciones</p>
+            </div>
+
+            <div class="col">
+                Privacidad
+            </div>
+
+            <div class="col">
+                Estudiantes
+            </div>
+        </div>
+    </footer>
+</body>

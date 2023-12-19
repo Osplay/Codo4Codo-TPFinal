@@ -9,32 +9,8 @@
 
 <body class="d-flex flex-column min-vh-100">
 
-    <header>
-        <div class="row" style="background-color: gray; color:white;">
-            <div class="col-4">
-                <a href="/codo4codo.github.io/index.html"><img src="recursos/codoacodo.png" height="75px" width="150px" alt="logo">Conf Bs As</a>
-            </div>
-            <div class="col-1 offset-2" style="color:white;">
-                La conferencia
-            </div>
-            <div class="col-1">
-                Los oradores
-            </div>
-            <div class="col-1">
-                El lugar y la fecha
-            </div>
-            <div class="col-1">
-                Conviértete en orador
-            </div>
-            <div class="col-1" id="comprar_style" style="color:lightgreen;">
-                <a href="/codo4codo.github.io/comprar-tickets.html">Comprar Tickets</a>
-            </div>
-        </div>
-    </header>
-
-
-
-
+    <jsp:include page="header.jsp" />
+    
     <div class="container">
 
         <div class="d-flex justify-content-center" style="text-align: center;">
@@ -108,7 +84,7 @@
 
     </div>
 
-    <footer class="mt-auto">
+    <footer>
         <div class="row" style="background-color: blueviolet; margin-top: 10px;">
             <div class="col offset-2">Preguntas<br>
                 Frecuentes</div>

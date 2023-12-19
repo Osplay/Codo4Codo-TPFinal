@@ -78,9 +78,7 @@ a:active {
 }
 
 footer {
-  bottom: 0px;
-  position: absolute;
   width: 100%;
-  padding: 0px;
-  margin: 0px;
+  display: inline-block;
+  align-self: flex-end;
 }
